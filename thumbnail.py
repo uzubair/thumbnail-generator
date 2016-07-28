@@ -12,7 +12,6 @@ def generate_filename(filename):
 	dot_index = filename.rindex(".")
 	return filename[:dot_index] + ".thumbnail" + filename[dot_index:]
 
-
 """
 Creates the thumbnail image
 """
@@ -55,8 +54,6 @@ if __name__ == '__main__':
 
 	images_source_dir = sys.argv[1] + "\\"
 	thumbnails_dest_dir = mkdir(sys.argv[2]) + "\\"
-
-
 
 	# TODO: Create a logging class
 	print "Starting thumbnail generator utility...\n"
