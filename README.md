@@ -1,6 +1,6 @@
 # Thumbnail Generator Utility
 
-This python utility can be used to generate thumbnail images. The thumbnails are generated in the specified directory with naming convention as <image-name>.thumbnail.<extension>.
+This python utility can be used to generate thumbnail images. The thumbnails are generated in the specified directory with naming convention as `filename.thumbnail.extention`
 
 ###Install dependencies with pip
 ```bash
